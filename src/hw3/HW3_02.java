@@ -8,7 +8,7 @@ public class HW3_02
 		Scanner sc = new Scanner(System.in);
 		System.out.println("開始猜數字吧！");
 		int answer = (int)(Math.random()*101);		
-		System.out.println("答案: "+answer);
+//		System.out.println("答案: "+answer);
 		
 		int input;
 		while(true)
