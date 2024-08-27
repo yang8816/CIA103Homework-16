@@ -38,7 +38,10 @@ public class HomeWork1
 		System.out.println(5+5);
 		//這裏是數值相加
 		System.out.println(5+'5');
-		//因爲'5'的unicode編碼為0035 轉爲十進制為55 所以相加為58
+		/*
+	     因爲'5'的Unicode編碼為0035且為十六進制
+	     轉爲十進制為55 所以相加為58
+		*/
 		System.out.println(5+"5");
 		//這裏是字串連接
 	}

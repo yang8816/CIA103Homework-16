@@ -9,7 +9,7 @@ public class HomeWork2
 		for(int i=1; i<=1000; i++)
 		{
 			if(i%2 == 0)
-			sum1 += i;
+			sum1 += i; 
 		}
 		System.out.println(sum1+"\n");
 		
