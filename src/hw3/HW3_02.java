@@ -23,7 +23,8 @@ public class HW3_02
 				System.out.println("太大了");
 			else 
 				System.out.println("太小了");		
-		}			
+		}	
+		sc.close();
 	}
 }
 

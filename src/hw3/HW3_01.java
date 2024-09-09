@@ -34,5 +34,6 @@ public class HW3_01
 					System.out.println("其它三角形");			
 			}															
 		}
+		sc.close();
 	}	
 }

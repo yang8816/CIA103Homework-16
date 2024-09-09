@@ -13,7 +13,6 @@ public class HW3_03
 		{
 			if(i==input || i%10==input || i/10==input)
 				continue;
-			
 			count++;
 			System.out.print(i+" "+"\t");
 			if(count%6 == 0)
@@ -21,7 +20,7 @@ public class HW3_03
 		}
 		System.out.println();
 		System.out.println("總共："+count);
-		
+		sc.close();
 		
 //進階挑戰		
 		
