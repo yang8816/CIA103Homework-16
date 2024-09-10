@@ -23,7 +23,6 @@ public class HW3_03
 		sc.close();
 		
 //進階挑戰		
-		
 //	int[] x = new int[44];//1~4 有35個數字 5~9有44個數字
 //   	int count0 = 0;
 //		System.out.println("輸入啦...阿文：");
