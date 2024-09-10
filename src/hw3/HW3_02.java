@@ -27,4 +27,3 @@ public class HW3_02
 		sc.close();
 	}
 }
-
