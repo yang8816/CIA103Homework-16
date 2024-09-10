@@ -39,34 +39,34 @@ public class HW3_03
 //	
 //		if(input0 < 5)
 //		{
-//			int[] y = getNoRepeat(35);
+//			int[] y = getNoRepeat(6,35);
 //			for(int i=0; i<6; i++)
 //				System.out.print(x[y[i]]+" ");
 //		}
 //		else 
 //		{
-//			int[] y = getNoRepeat(44);
+//			int[] y = getNoRepeat(6,44);
 //			for(int i=0; i<6; i++)
 //				System.out.print(x[y[i]]+" ");
 //		}
 	}
 	
-	//隨機產生6個不重複數字
-//	public static int[] getNoRepeat(int r)
-//	{
-//		int[] y = new int[6];
-//		for(int j=0; j<6; j++)			
-//		{
-//			y[j] = (int)(Math.random()*r);
-//			for(int k=0; k<j; k++)
-//			{
-//				if(y[j] == y[k])
-//				{	
-//					j--;
-//					break;
-//				}
-//			}				
-//		}	
-//		return y;
-//	}
+//	隨機產生n個不重複數字,範圍 0~r-1
+	public static int[] getNoRepeat(int n,int r)
+	{
+		int[] y = new int[n];
+		for(int j=0; j<n; j++)			
+		{
+			y[j] = (int)(Math.random()*r);
+			for(int k=0; k<j; k++)
+			{
+				if(y[j] == y[k])
+				{	
+					j--;
+					break;
+				}
+			}				
+		}	
+		return y;
+	}
 }
