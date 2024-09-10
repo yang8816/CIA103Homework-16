@@ -41,6 +41,7 @@ public class HW5_05
 		//傳回8個 範圍在0~7的隨機不重複數字
 		int[] index = HW3_03.getNoRepeat(8,8);
 		
+		System.out.println("本次隨機產生驗證碼為: ");
 		//index陣列内容即爲驗證碼印出順序
 		for(int i=0; i<7; i++)
 		{
